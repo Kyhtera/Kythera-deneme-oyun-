@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE818C3228FD91E30074043D /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE818C3128FD91E30074043D /* Tests_iOS.swift */; };
+		FE818C3428FD91E30074043D /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE818C3328FD91E30074043D /* Tests_iOSLaunchTests.swift */; };
+		FE818C3E28FD91E30074043D /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE818C3D28FD91E30074043D /* Tests_macOS.swift */; };
+		FE818C4028FD91E30074043D /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE818C3F28FD91E30074043D /* Tests_macOSLaunchTests.swift */; };
+		FE818C4128FD91E30074043D /* deneme_ahmetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE818C1928FD91E00074043D /* deneme_ahmetApp.swift */; };
+		FE818C4228FD91E30074043D /* deneme_ahmetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE818C1928FD91E00074043D /* deneme_ahmetApp.swift */; };
+		FE818C4328FD91E30074043D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE818C1A28FD91E00074043D /* ContentView.swift */; };
+		FE818C4428FD91E30074043D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE818C1A28FD91E00074043D /* ContentView.swift */; };
+		FE818C4528FD91E30074043D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE818C1B28FD91E30074043D /* Assets.xcassets */; };
+		FE818C4628FD91E30074043D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE818C1B28FD91E30074043D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE818C2E28FD91E30074043D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE818C1428FD91E00074043D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE818C1F28FD91E30074043D;
+			remoteInfo = "deneme ahmet (iOS)";
+		};
+		FE818C3A28FD91E30074043D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE818C1428FD91E00074043D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE818C2528FD91E30074043D;
+			remoteInfo = "deneme ahmet (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE818C1928FD91E00074043D /* deneme_ahmetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deneme_ahmetApp.swift; sourceTree = "<group>"; };
+		FE818C1A28FD91E00074043D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FE818C1B28FD91E30074043D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE818C2028FD91E30074043D /* deneme ahmet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "deneme ahmet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE818C2628FD91E30074043D /* deneme ahmet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "deneme ahmet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE818C2828FD91E30074043D /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		FE818C2D28FD91E30074043D /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE818C3128FD91E30074043D /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		FE818C3328FD91E30074043D /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		FE818C3928FD91E30074043D /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE818C3D28FD91E30074043D /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		FE818C3F28FD91E30074043D /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE818C1D28FD91E30074043D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE818C2328FD91E30074043D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE818C2A28FD91E30074043D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE818C3628FD91E30074043D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE818C1328FD91E00074043D = {
+			isa = PBXGroup;
+			children = (
+				FE818C1828FD91E00074043D /* Shared */,
+				FE818C2728FD91E30074043D /* macOS */,
+				FE818C3028FD91E30074043D /* Tests iOS */,
+				FE818C3C28FD91E30074043D /* Tests macOS */,
+				FE818C2128FD91E30074043D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE818C1828FD91E00074043D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				FE818C1928FD91E00074043D /* deneme_ahmetApp.swift */,
+				FE818C1A28FD91E00074043D /* ContentView.swift */,
+				FE818C1B28FD91E30074043D /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		FE818C2128FD91E30074043D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE818C2028FD91E30074043D /* deneme ahmet.app */,
+				FE818C2628FD91E30074043D /* deneme ahmet.app */,
+				FE818C2D28FD91E30074043D /* Tests iOS.xctest */,
+				FE818C3928FD91E30074043D /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE818C2728FD91E30074043D /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				FE818C2828FD91E30074043D /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		FE818C3028FD91E30074043D /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FE818C3128FD91E30074043D /* Tests_iOS.swift */,
+				FE818C3328FD91E30074043D /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		FE818C3C28FD91E30074043D /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				FE818C3D28FD91E30074043D /* Tests_macOS.swift */,
+				FE818C3F28FD91E30074043D /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE818C1F28FD91E30074043D /* deneme ahmet (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE818C4928FD91E30074043D /* Build configuration list for PBXNativeTarget "deneme ahmet (iOS)" */;
+			buildPhases = (
+				FE818C1C28FD91E30074043D /* Sources */,
+				FE818C1D28FD91E30074043D /* Frameworks */,
+				FE818C1E28FD91E30074043D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "deneme ahmet (iOS)";
+			productName = "deneme ahmet (iOS)";
+			productReference = FE818C2028FD91E30074043D /* deneme ahmet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE818C2528FD91E30074043D /* deneme ahmet (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE818C4C28FD91E30074043D /* Build configuration list for PBXNativeTarget "deneme ahmet (macOS)" */;
+			buildPhases = (
+				FE818C2228FD91E30074043D /* Sources */,
+				FE818C2328FD91E30074043D /* Frameworks */,
+				FE818C2428FD91E30074043D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "deneme ahmet (macOS)";
+			productName = "deneme ahmet (macOS)";
+			productReference = FE818C2628FD91E30074043D /* deneme ahmet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE818C2C28FD91E30074043D /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE818C4F28FD91E30074043D /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				FE818C2928FD91E30074043D /* Sources */,
+				FE818C2A28FD91E30074043D /* Frameworks */,
+				FE818C2B28FD91E30074043D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE818C2F28FD91E30074043D /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = FE818C2D28FD91E30074043D /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		FE818C3828FD91E30074043D /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE818C5228FD91E30074043D /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				FE818C3528FD91E30074043D /* Sources */,
+				FE818C3628FD91E30074043D /* Frameworks */,
+				FE818C3728FD91E30074043D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE818C3B28FD91E30074043D /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = FE818C3928FD91E30074043D /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE818C1428FD91E00074043D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					FE818C1F28FD91E30074043D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					FE818C2528FD91E30074043D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					FE818C2C28FD91E30074043D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = FE818C1F28FD91E30074043D;
+					};
+					FE818C3828FD91E30074043D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = FE818C2528FD91E30074043D;
+					};
+				};
+			};
+			buildConfigurationList = FE818C1728FD91E00074043D /* Build configuration list for PBXProject "deneme ahmet" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE818C1328FD91E00074043D;
+			productRefGroup = FE818C2128FD91E30074043D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE818C1F28FD91E30074043D /* deneme ahmet (iOS) */,
+				FE818C2528FD91E30074043D /* deneme ahmet (macOS) */,
+				FE818C2C28FD91E30074043D /* Tests iOS */,
+				FE818C3828FD91E30074043D /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE818C1E28FD91E30074043D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE818C4528FD91E30074043D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE818C2428FD91E30074043D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE818C4628FD91E30074043D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE818C2B28FD91E30074043D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE818C3728FD91E30074043D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE818C1C28FD91E30074043D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE818C4328FD91E30074043D /* ContentView.swift in Sources */,
+				FE818C4128FD91E30074043D /* deneme_ahmetApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE818C2228FD91E30074043D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE818C4428FD91E30074043D /* ContentView.swift in Sources */,
+				FE818C4228FD91E30074043D /* deneme_ahmetApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE818C2928FD91E30074043D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE818C3428FD91E30074043D /* Tests_iOSLaunchTests.swift in Sources */,
+				FE818C3228FD91E30074043D /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE818C3528FD91E30074043D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE818C4028FD91E30074043D /* Tests_macOSLaunchTests.swift in Sources */,
+				FE818C3E28FD91E30074043D /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE818C2F28FD91E30074043D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE818C1F28FD91E30074043D /* deneme ahmet (iOS) */;
+			targetProxy = FE818C2E28FD91E30074043D /* PBXContainerItemProxy */;
+		};
+		FE818C3B28FD91E30074043D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE818C2528FD91E30074043D /* deneme ahmet (macOS) */;
+			targetProxy = FE818C3A28FD91E30074043D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FE818C4728FD91E30074043D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE818C4828FD91E30074043D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FE818C4A28FD91E30074043D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kythera.deneme-ahmet";
+				PRODUCT_NAME = "deneme ahmet";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE818C4B28FD91E30074043D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kythera.deneme-ahmet";
+				PRODUCT_NAME = "deneme ahmet";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE818C4D28FD91E30074043D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kythera.deneme-ahmet";
+				PRODUCT_NAME = "deneme ahmet";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FE818C4E28FD91E30074043D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kythera.deneme-ahmet";
+				PRODUCT_NAME = "deneme ahmet";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FE818C5028FD91E30074043D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kythera.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "deneme ahmet (iOS)";
+			};
+			name = Debug;
+		};
+		FE818C5128FD91E30074043D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kythera.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "deneme ahmet (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE818C5328FD91E30074043D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kythera.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "deneme ahmet (macOS)";
+			};
+			name = Debug;
+		};
+		FE818C5428FD91E30074043D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kythera.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "deneme ahmet (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE818C1728FD91E00074043D /* Build configuration list for PBXProject "deneme ahmet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE818C4728FD91E30074043D /* Debug */,
+				FE818C4828FD91E30074043D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE818C4928FD91E30074043D /* Build configuration list for PBXNativeTarget "deneme ahmet (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE818C4A28FD91E30074043D /* Debug */,
+				FE818C4B28FD91E30074043D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE818C4C28FD91E30074043D /* Build configuration list for PBXNativeTarget "deneme ahmet (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE818C4D28FD91E30074043D /* Debug */,
+				FE818C4E28FD91E30074043D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE818C4F28FD91E30074043D /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE818C5028FD91E30074043D /* Debug */,
+				FE818C5128FD91E30074043D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE818C5228FD91E30074043D /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE818C5328FD91E30074043D /* Debug */,
+				FE818C5428FD91E30074043D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE818C1428FD91E00074043D /* Project object */;
+}
